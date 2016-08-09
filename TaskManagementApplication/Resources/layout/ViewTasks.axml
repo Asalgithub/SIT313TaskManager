@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Total Tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewtasks_text_totaltasks" />
+    <TextView
+        android:text="Task Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewtasks_text_taskname" />
+    <Button
+        android:text="Reverse Task Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewtasks_button_reversetaskstatus" />
+    <Button
+        android:text="First Task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewtasks_button_firsttask" />
+    <Button
+        android:text="Last Task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewtasks_button_lasttask" />
+    <Button
+        android:text="Next Task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewtasks_button_nexttask" />
+    <Button
+        android:text="Previous Task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewtasks_button_previoustask" />
+</LinearLayout>
